@@ -1,0 +1,27 @@
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_0_1147)">
+<path d="M10.227 3.466C10.1295 3.35273 9.98299 3.29449 9.83458 3.31009L3.65102 3.96L2.99718 2.76161C2.82044 2.43802 2.46995 2.25437 2.10347 2.29289L1.04792 2.40383L1.14303 3.30872L2.19858 3.19778L4.88638 8.12326C4.9742 8.2842 5.15044 8.37684 5.33323 8.35763L8.95279 7.97719C9.14146 7.95736 9.2979 7.82244 9.34591 7.63945L10.3228 3.87723C10.3602 3.73241 10.3244 3.57882 10.227 3.466ZM8.54414 7.10526L5.5399 7.42102L4.12347 4.82523L9.27681 4.2836L8.54414 7.10526Z" fill="url(#paint0_linear_0_1147)"/>
+<path d="M5.74921 10.1433C6.12402 10.1039 6.39594 9.76813 6.35654 9.39331C6.31715 9.0185 5.98136 8.74658 5.60655 8.78598C5.23173 8.82537 4.95981 9.16116 4.99921 9.53597C5.0386 9.91079 5.37439 10.1827 5.74921 10.1433Z" fill="url(#paint1_linear_0_1147)"/>
+<path d="M8.91637 9.81085C9.29119 9.77145 9.5631 9.43567 9.5237 9.06085C9.48431 8.68603 9.14852 8.41412 8.77371 8.45352C8.39889 8.49291 8.12698 8.8287 8.16637 9.20351C8.20577 9.57833 8.54155 9.85024 8.91637 9.81085Z" fill="url(#paint2_linear_0_1147)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_1147" x1="9.83361" y1="-15.8267" x2="-6.90933" y2="-9.79696" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DE127B"/>
+<stop offset="0.346154" stop-color="#E5435C"/>
+<stop offset="1" stop-color="#F3A020"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_1147" x1="6.13003" y1="5.0223" x2="3.52296" y2="5.75804" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DE127B"/>
+<stop offset="0.346154" stop-color="#E5435C"/>
+<stop offset="1" stop-color="#F3A020"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_1147" x1="9.2972" y1="4.68983" x2="6.69012" y2="5.42558" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DE127B"/>
+<stop offset="0.346154" stop-color="#E5435C"/>
+<stop offset="1" stop-color="#F3A020"/>
+</linearGradient>
+<clipPath id="clip0_0_1147">
+<rect width="10.0224" height="10.0224" fill="white" transform="translate(0 1.14154) scale(1.08941) rotate(-6)"/>
+</clipPath>
+</defs>
+</svg>
