@@ -9,6 +9,7 @@ import SocialPromiseSection from "./sections/SocialPromiseSection";
 import FeatureSpotlightSection from "./sections/FeatureSpotlightSection";
 import CreatorCommunitySection from "./sections/CreatorCommunitySection";
 import PreRegisterCtaSection from "./sections/PreRegisterCtaSection";
+import { TopHeroSection } from "./sections/NaveSection";
 
 
 export default function WebsiteDesktop(): JSX.Element {
@@ -51,8 +52,8 @@ export default function WebsiteDesktop(): JSX.Element {
       ))}
 
       <main className="relative z-10 flex flex-col bg-white">
-        <HeroShowcaseSection />
         <section className="relative px-4 pb-10 pt-8 sm:px-6 lg:px-0 lg:pb-16 lg:pt-10">
+          <TopHeroSection/>
           <div className="mx-auto flex w-full max-w-[1440px] justify-center">
             <div className="relative w-full max-w-[1240px] px-0 lg:px-[100px]">
               <div className="relative max-w-[1120px]">
@@ -79,33 +80,7 @@ export default function WebsiteDesktop(): JSX.Element {
                     AI Powered Social Media
                   </p>
                 </div>
-                <div className="pointer-events-none mt-8 hidden lg:absolute lg:left-[428px] lg:top-[150px] lg:block">
-                  <Card className="h-[50px] w-[50px] rounded-none border-0 bg-transparent shadow-[inset_4.27px_14.84px_9.76px_1.63px_#ae10c724,inset_0px_-4.88px_6.3px_#f039f470,inset_-2.24px_6.1px_6.3px_#ffc3b0ad] [background:radial-gradient(50%_50%_at_44%_7%,rgba(255,193,34,1)_58%,rgba(255,206,33,1)_100%)]">
-                    <CardContent className="relative h-full p-0">
-                      <div className="absolute left-[5px] top-5 h-3.5 w-[41px]">
-                        <div className="absolute left-0 top-0 h-full w-[35.50%] rounded-[7.22px] bg-[#fd7171] blur-[3.96px]" />
-                        <div className="absolute left-[64.50%] top-0 h-full w-[35.50%] rounded-[7.22px] bg-[#fd7171] blur-[3.96px]" />
-                      </div>
-                      <div className="absolute left-2 top-[13px] h-[7px] w-[34px]">
-                        <img
-                          className="absolute left-0 top-0 h-full w-[41.57%]"
-                          alt="Ellipse"
-                          src="/figmaAssets/ellipse-46.svg"
-                        />
-                        <img
-                          className="absolute left-[58.43%] top-0 h-full w-[41.57%]"
-                          alt="Ellipse"
-                          src="/figmaAssets/ellipse-47.svg"
-                        />
-                      </div>
-                      <img
-                        className="absolute left-2.5 top-[23px] h-[15px] w-[30px]"
-                        alt="Smiling mouth"
-                        src="/figmaAssets/smiling-mouth.svg"
-                      />
-                    </CardContent>
-                  </Card>
-                </div>
+                
               </div>
             </div>
           </div>

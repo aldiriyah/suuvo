@@ -87,7 +87,7 @@ const showcaseCards = [
 export default function HeroShowcaseSection (): JSX.Element{
   return (
     <section className="w-full">
-      <div className="mx-auto flex w-full max-w-[1316px] items-start justify-center overflow-x-auto px-3 py-4 md:px-4">
+      <div className="mx-auto flex w-full max-w-[1316px] items-start justify-center  px-3 py-4 md:px-4">
         <div className="flex min-w-max items-start gap-0">
           {showcaseCards.map((card) => (
             <Card
