@@ -11,7 +11,7 @@ const featureSpotlightContent = {
   ctaGlow: "/figmaAssets/vector-9-1.svg",
 };
 
-export const FeatureSpotlightSection = (): JSX.Element => {
+export default function FeatureSpotlightSection(): JSX.Element{
   return (
     <section className="relative w-full px-4 py-8 sm:px-6 md:px-8 lg:py-10">
       <div className="mx-auto flex w-full max-w-[1051px] flex-col items-center gap-10 sm:gap-12 md:gap-[60px]">

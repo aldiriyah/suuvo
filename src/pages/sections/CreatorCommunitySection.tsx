@@ -130,7 +130,7 @@ const cards = [
   },
 ];
 
-export const CreatorCommunitySection = (): JSX.Element => {
+export default function CreatorCommunitySection(): JSX.Element{
   return (
     <section className="relative w-full px-4 py-6 sm:px-6 lg:px-0">
       <Card className="mx-auto w-full max-w-[1240px] overflow-hidden rounded-[32px] border-0 bg-[linear-gradient(90deg,rgba(239,159,34,1)_0%,rgba(222,18,123,1)_100%)] shadow-none">

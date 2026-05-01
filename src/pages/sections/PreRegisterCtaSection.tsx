@@ -40,7 +40,7 @@ const footerColumns = [
   { title: "Support", items: supportLinks },
 ];
 
-export const PreRegisterCtaSection = (): JSX.Element => {
+export default function PreRegisterCtaSection (): JSX.Element {
   return (
     <section className="w-full px-6 pb-8 sm:px-8 lg:px-[100px]">
       <div className="mx-auto flex w-full max-w-[1240px] flex-col gap-16">

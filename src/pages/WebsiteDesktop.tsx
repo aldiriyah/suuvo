@@ -1,15 +1,18 @@
 "use client";
-import { Card, CardContent } from "@/components/ui/card";
-import { BenefitsOverviewSection } from "./sections/BenefitsOverviewSection";
-import { CoreFeatureGridSection } from "./sections/CoreFeatureGridSection";
-import { CreatorCommunitySection } from "./sections/CreatorCommunitySection";
-import { FeatureSpotlightSection } from "./sections/FeatureSpotlightSection";
-import { HeroShowcaseSection } from "./sections/HeroShowcaseSection";
-import { PreRegisterCtaSection } from "./sections/PreRegisterCtaSection";
-import { SocialPromiseSection } from "./sections/SocialPromiseSection";
 
-export const WebsiteDesktop = (): JSX.Element => {
-  const floatingDecorations = [
+import { Card, CardContent } from "@/components/ui/card";
+
+import BenefitsOverviewSection from "./sections/BenefitsOverviewSection";
+import HeroShowcaseSection from "./sections/HeroShowcaseSection";
+import CoreFeatureGridSection from "./sections/CoreFeatureGridSection";
+import SocialPromiseSection from "./sections/SocialPromiseSection";
+import FeatureSpotlightSection from "./sections/FeatureSpotlightSection";
+import CreatorCommunitySection from "./sections/CreatorCommunitySection";
+import PreRegisterCtaSection from "./sections/PreRegisterCtaSection";
+
+
+export default function WebsiteDesktop(): JSX.Element {
+    const floatingDecorations = [
     {
       src: "/figmaAssets/vector-4.svg",
       alt: "Vector",

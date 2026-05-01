@@ -84,7 +84,7 @@ const showcaseCards = [
   },
 ];
 
-export const HeroShowcaseSection = (): JSX.Element => {
+export default function HeroShowcaseSection (): JSX.Element{
   return (
     <section className="w-full">
       <div className="mx-auto flex w-full max-w-[1316px] items-start justify-center overflow-x-auto px-3 py-4 md:px-4">

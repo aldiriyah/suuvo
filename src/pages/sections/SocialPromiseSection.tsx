@@ -112,7 +112,7 @@ const features = [
 
 const bulletIcon = "/figmaAssets/frame-2147225936.svg";
 
-export const SocialPromiseSection = (): JSX.Element => {
+export default function SocialPromiseSection (): JSX.Element {
   return (
     <section className="relative w-full px-4 py-12 sm:px-6 lg:px-0">
       <div className="mx-auto flex w-full max-w-[1070px] flex-col items-center gap-[60px]">

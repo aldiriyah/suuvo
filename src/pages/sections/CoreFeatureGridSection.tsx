@@ -152,7 +152,7 @@ const FeatureCard = ({
   );
 };
 
-export const CoreFeatureGridSection = (): JSX.Element => {
+export default function CoreFeatureGridSection(): JSX.Element{
   return (
     <section className="relative w-full px-4 py-12 sm:px-6 lg:px-8">
       <div className="mx-auto flex w-full max-w-[1240px] flex-col items-center gap-[59px]">

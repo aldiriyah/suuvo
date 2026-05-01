@@ -42,7 +42,7 @@ const faqItems = [
   },
 ];
 
-export const BenefitsOverviewSection = (): JSX.Element => {
+export default function BenefitsOverviewSectio(): JSX.Element {
   return (
     <section className="relative w-full">
       <div className="mx-auto flex w-full max-w-[820px] flex-col items-center gap-12">
