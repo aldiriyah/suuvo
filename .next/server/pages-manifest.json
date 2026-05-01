@@ -1,15 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/WebsiteDesktop": "pages/WebsiteDesktop.html",
-  "/sections/BenefitsOverviewSection": "pages/sections/BenefitsOverviewSection.html",
-  "/sections/CoreFeatureGridSection": "pages/sections/CoreFeatureGridSection.html",
-  "/sections/CreatorCommunitySection": "pages/sections/CreatorCommunitySection.html",
-  "/sections/FeatureSpotlightSection": "pages/sections/FeatureSpotlightSection.html",
-  "/sections/HeroShowcaseSection": "pages/sections/HeroShowcaseSection.html",
-  "/sections/NaveSection": "pages/sections/NaveSection.html",
-  "/sections/PreRegisterCtaSection": "pages/sections/PreRegisterCtaSection.html",
-  "/sections/SocialPromiseSection": "pages/sections/SocialPromiseSection.html",
-  "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
-}
+{}

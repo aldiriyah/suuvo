@@ -50,10 +50,10 @@ export default function WebsiteDesktop(): JSX.Element {
           src={item.src}
         />
       ))}
+          <TopHeroSection/>
 
       <main className="relative z-10 flex flex-col bg-white">
         <section className="relative px-4 pb-10 pt-8 sm:px-6 lg:px-0 lg:pb-16 lg:pt-10">
-          <TopHeroSection/>
           <div className="mx-auto flex w-full max-w-[1440px] justify-center">
             <div className="relative w-full max-w-[1240px] px-0 lg:px-[100px]">
               <div className="relative max-w-[1120px]">
