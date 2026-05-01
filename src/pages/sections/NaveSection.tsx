@@ -67,8 +67,7 @@ const mockupCards = [
     caption: '"Good vibes only," "Making memories," or "Life\'s too short for bad views"',
   },
 ];
-
-export const TopHeroSection = () => {
+export default function TopHeroSection (): JSX.Element {
   return (
     <div className="relative mb-20 overflow-hidden bg-gradient-to-br from-[#fde8dc] via-[#fdddd2] to-white">
       {/* Background blobs */}

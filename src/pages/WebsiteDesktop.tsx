@@ -9,7 +9,7 @@ import SocialPromiseSection from "./sections/SocialPromiseSection";
 import FeatureSpotlightSection from "./sections/FeatureSpotlightSection";
 import CreatorCommunitySection from "./sections/CreatorCommunitySection";
 import PreRegisterCtaSection from "./sections/PreRegisterCtaSection";
-import { TopHeroSection } from "./sections/NaveSection";
+import TopHeroSection from "./sections/NaveSection";
 
 
 export default function WebsiteDesktop(): JSX.Element {
